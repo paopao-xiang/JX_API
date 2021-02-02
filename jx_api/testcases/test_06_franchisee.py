@@ -35,6 +35,7 @@ class FranchiseeTest(unittest.TestCase):
             self.headers={"content-type": "application/json", "Connection": "keep-alive", 'token':context.Context.token}
         resp = self.http_request.request(case.method, case.url, case.type, headers=self.headers,jsons=case.data)
         logger.logger.info("{0},返回是：{1},返回类型：{2}".format(case.title, resp.text, type(resp.text)))
+        print("请求的内容：{}".format(case.title))
         if 'message' in json.loads(resp.text).keys():
             #判断返回值的类型，是否含有message提示
             try:

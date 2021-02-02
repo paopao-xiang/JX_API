@@ -33,6 +33,7 @@ class SysUpdownstreamTest(unittest.TestCase):
         logger.logger.info("开始测试：{0},发送的请求是：{1},请求类型：{2}".format(case.title, case.data, type(case.data)))
         resp = self.http_request.request(case.method, case.url, case.type, headers=self.headers,jsons=case.data)
         logger.logger.info("{0},返回是：{1},返回类型：{2}".format(case.title, resp.text, type(resp.text)))
+        print("请求的内容：{}".format(case.title))
         if 'message' in json.loads(resp.text).keys():
             #判断返回值的类型，是否含有message提示
             try:
