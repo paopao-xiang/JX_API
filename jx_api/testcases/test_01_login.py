@@ -9,14 +9,14 @@
 import unittest
 import json
 from ddt import ddt, data
-from jx_api.common import contants
+from jx_api.common import config
 from jx_api.common import do_excel
 from jx_api.common import logger
 from jx_api.common.http_request import HTTPRequest2
 logger = logger.get_logger(__name__)
 @ddt
 class LoginTest(unittest.TestCase):
-    excel = do_excel.DoExcel(contants.case_file, 'login')
+    excel = do_excel.DoExcel(config.config.get('case', 'case_file'), 'login')
     cases = excel.get_cases()
     @classmethod
     def setUpClass(cls):

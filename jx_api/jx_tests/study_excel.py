@@ -47,6 +47,6 @@ class DoExcel:
         return cases  # 返回case列表
 
 if __name__ == '__main__':
-    resp=DoExcel(contants.case_file,'phone')
+    resp=DoExcel(contants.formal_case_file,'phone')
     data=resp.get_cases()
 

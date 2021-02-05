@@ -12,6 +12,7 @@ import os
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  #
 #测试用例路径
 case_file = os.path.join(base_dir, 'data', 'cases.xlsx')
+formal_case_file=os.path.join(base_dir, 'data', 'formal_case_file.xlsx')
 #相关配置文件路径
 global_file = os.path.join(base_dir, 'config', 'global.conf')
 online_file = os.path.join(base_dir, 'config', 'online.conf')
@@ -25,6 +26,6 @@ report_dir = os.path.join(base_dir, 'reports')
 
 
 if __name__ == '__main__':
-    print(base_dir)
-    print(global_file)
+    print(case_file)
+    print(formal_case_file)
     print(case_dir)

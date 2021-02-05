@@ -16,7 +16,7 @@ from jx_api.common import context
 from jx_api.common.http_request import HTTPRequest2
 @ddt
 class EpcstockTest(unittest.TestCase):
-    excel = do_excel.DoExcel(contants.case_file, 'epcstock')
+    excel = do_excel.DoExcel(config.get('case', 'case_file'), 'epcstock')
     cases = excel.get_cases()
     @classmethod
     def setUpClass(cls):

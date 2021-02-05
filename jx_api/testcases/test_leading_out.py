@@ -16,7 +16,7 @@ from jx_api.common.config import config
 logger = logger.get_logger(__name__)
 @ddt
 class LeadingOutTest(unittest.TestCase):
-    excel = do_excel.DoExcel(contants.case_file, 'leading_out')
+    excel = do_excel.DoExcel(config.get('case', 'case_file'), 'leading_out')
     cases = excel.get_cases()
     @classmethod
     def setUpClass(cls):

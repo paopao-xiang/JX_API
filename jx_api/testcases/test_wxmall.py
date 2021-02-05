@@ -18,7 +18,7 @@ from jx_api.common.http_request import HTTPRequest2
 
 @ddt
 class WxmallTest(unittest.TestCase):
-    excel = do_excel.DoExcel(contants.case_file, 'wxMall')
+    excel = do_excel.DoExcel(config.get('case', 'case_file'), 'wxMall')
     cases = excel.get_cases()
 
     @classmethod
