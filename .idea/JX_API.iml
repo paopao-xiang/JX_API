@@ -8,6 +8,7 @@
     <orderEntry type="module" module-name="Python_15" />
     <orderEntry type="module" module-name="web_15" />
     <orderEntry type="module" module-name="web_out" />
+    <orderEntry type="module" module-name="web_15" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="format" value="PLAIN" />
