@@ -1,0 +1,183 @@
+ Mon, 24 Jun 2019 17:56:11  INFO logger.py <module> [ line:24 ] hehehe
+ Mon, 24 Jun 2019 17:56:12  INFO test_invest.py setUpClass [ line:70 ] =====用例类前置：初始化浏览器会话，登陆前程贷系统=======
+ Mon, 24 Jun 2019 19:46:10  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="phone"]') 可见。
+ Mon, 24 Jun 2019 19:46:10  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:10.299997，结束等待时间点：2019-06-24 19:46:10.339687，等待时长为：0:00:00.039690
+ Mon, 24 Jun 2019 19:46:10  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入用户名 中的元素 ('xpath', '//input[@name="phone"]') 
+ Mon, 24 Jun 2019 19:46:10  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="phone"]') 输入文本内容:('18684720553',)
+ Mon, 24 Jun 2019 19:46:10  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="password"]') 可见。
+ Mon, 24 Jun 2019 19:46:10  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:10.466233，结束等待时间点：2019-06-24 19:46:10.518884，等待时长为：0:00:00.052651
+ Mon, 24 Jun 2019 19:46:10  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入密码 中的元素 ('xpath', '//input[@name="password"]') 
+ Mon, 24 Jun 2019 19:46:10  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="password"]') 输入文本内容:('',)
+ Mon, 24 Jun 2019 19:46:10  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('tag name', 'button') 可见。
+ Mon, 24 Jun 2019 19:46:10  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:10.600928，结束等待时间点：2019-06-24 19:46:10.636022，等待时长为：0:00:00.035094
+ Mon, 24 Jun 2019 19:46:10  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_点击登陆按钮 中的元素 ('tag name', 'button') 
+ Mon, 24 Jun 2019 19:46:10  INFO basepage.py click_element [ line:74 ]  点击元素 ('tag name', 'button')
+ Mon, 24 Jun 2019 19:46:10  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//div[@class="form-error-info"]') 可见。
+ Mon, 24 Jun 2019 19:46:10  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:10.750740，结束等待时间点：2019-06-24 19:46:10.796714，等待时长为：0:00:00.045974
+ Mon, 24 Jun 2019 19:46:10  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_表单区域错误信息 中的元素 ('xpath', '//div[@class="form-error-info"]') 
+ Mon, 24 Jun 2019 19:46:10  INFO basepage.py get_element_text [ line:122 ] 获取元素 ('xpath', '//div[@class="form-error-info"]') 的文件值为:请输入密码
+ Mon, 24 Jun 2019 19:46:11  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="phone"]') 可见。
+ Mon, 24 Jun 2019 19:46:11  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:11.207209，结束等待时间点：2019-06-24 19:46:11.246461，等待时长为：0:00:00.039252
+ Mon, 24 Jun 2019 19:46:11  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入用户名 中的元素 ('xpath', '//input[@name="phone"]') 
+ Mon, 24 Jun 2019 19:46:11  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="phone"]') 输入文本内容:('',)
+ Mon, 24 Jun 2019 19:46:11  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="password"]') 可见。
+ Mon, 24 Jun 2019 19:46:11  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:11.309092，结束等待时间点：2019-06-24 19:46:11.340340，等待时长为：0:00:00.031248
+ Mon, 24 Jun 2019 19:46:11  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入密码 中的元素 ('xpath', '//input[@name="password"]') 
+ Mon, 24 Jun 2019 19:46:11  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="password"]') 输入文本内容:('python',)
+ Mon, 24 Jun 2019 19:46:11  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('tag name', 'button') 可见。
+ Mon, 24 Jun 2019 19:46:11  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:11.452204，结束等待时间点：2019-06-24 19:46:11.483580，等待时长为：0:00:00.031376
+ Mon, 24 Jun 2019 19:46:11  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_点击登陆按钮 中的元素 ('tag name', 'button') 
+ Mon, 24 Jun 2019 19:46:11  INFO basepage.py click_element [ line:74 ]  点击元素 ('tag name', 'button')
+ Mon, 24 Jun 2019 19:46:11  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//div[@class="form-error-info"]') 可见。
+ Mon, 24 Jun 2019 19:46:11  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:11.582439，结束等待时间点：2019-06-24 19:46:11.629309，等待时长为：0:00:00.046870
+ Mon, 24 Jun 2019 19:46:11  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_表单区域错误信息 中的元素 ('xpath', '//div[@class="form-error-info"]') 
+ Mon, 24 Jun 2019 19:46:11  INFO basepage.py get_element_text [ line:122 ] 获取元素 ('xpath', '//div[@class="form-error-info"]') 的文件值为:请输入手机号
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="phone"]') 可见。
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:12.079142，结束等待时间点：2019-06-24 19:46:12.118102，等待时长为：0:00:00.038960
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入用户名 中的元素 ('xpath', '//input[@name="phone"]') 
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="phone"]') 输入文本内容:('186847',)
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="password"]') 可见。
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:12.199529，结束等待时间点：2019-06-24 19:46:12.247907，等待时长为：0:00:00.048378
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入密码 中的元素 ('xpath', '//input[@name="password"]') 
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="password"]') 输入文本内容:('python',)
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('tag name', 'button') 可见。
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:12.347424，结束等待时间点：2019-06-24 19:46:12.383465，等待时长为：0:00:00.036041
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_点击登陆按钮 中的元素 ('tag name', 'button') 
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py click_element [ line:74 ]  点击元素 ('tag name', 'button')
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//div[@class="form-error-info"]') 可见。
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:12.465940，结束等待时间点：2019-06-24 19:46:12.505772，等待时长为：0:00:00.039832
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_表单区域错误信息 中的元素 ('xpath', '//div[@class="form-error-info"]') 
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py get_element_text [ line:122 ] 获取元素 ('xpath', '//div[@class="form-error-info"]') 的文件值为:请输入正确的手机号
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="phone"]') 可见。
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:12.906696，结束等待时间点：2019-06-24 19:46:12.944815，等待时长为：0:00:00.038119
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入用户名 中的元素 ('xpath', '//input[@name="phone"]') 
+ Mon, 24 Jun 2019 19:46:12  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="phone"]') 输入文本内容:('186847055311',)
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="password"]') 可见。
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:13.065537，结束等待时间点：2019-06-24 19:46:13.096802，等待时长为：0:00:00.031265
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入密码 中的元素 ('xpath', '//input[@name="password"]') 
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="password"]') 输入文本内容:('python',)
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('tag name', 'button') 可见。
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:13.198878，结束等待时间点：2019-06-24 19:46:13.236258，等待时长为：0:00:00.037380
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_点击登陆按钮 中的元素 ('tag name', 'button') 
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py click_element [ line:74 ]  点击元素 ('tag name', 'button')
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//div[@class="form-error-info"]') 可见。
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:13.328349，结束等待时间点：2019-06-24 19:46:13.368755，等待时长为：0:00:00.040406
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_表单区域错误信息 中的元素 ('xpath', '//div[@class="form-error-info"]') 
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py get_element_text [ line:122 ] 获取元素 ('xpath', '//div[@class="form-error-info"]') 的文件值为:请输入正确的手机号
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="phone"]') 可见。
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:13.781451，结束等待时间点：2019-06-24 19:46:13.830387，等待时长为：0:00:00.048936
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入用户名 中的元素 ('xpath', '//input[@name="phone"]') 
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="phone"]') 输入文本内容:('18600000000',)
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="password"]') 可见。
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:13.944726，结束等待时间点：2019-06-24 19:46:13.982251，等待时长为：0:00:00.037525
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入密码 中的元素 ('xpath', '//input[@name="password"]') 
+ Mon, 24 Jun 2019 19:46:13  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="password"]') 输入文本内容:('pthon',)
+ Mon, 24 Jun 2019 19:46:14  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('tag name', 'button') 可见。
+ Mon, 24 Jun 2019 19:46:14  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:46:14.098920，结束等待时间点：2019-06-24 19:46:14.130169，等待时长为：0:00:00.031249
+ Mon, 24 Jun 2019 19:46:14  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_点击登陆按钮 中的元素 ('tag name', 'button') 
+ Mon, 24 Jun 2019 19:46:14  INFO basepage.py click_element [ line:74 ]  点击元素 ('tag name', 'button')
+ Mon, 24 Jun 2019 19:46:14  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//div[@class="layui-layer-content"]') 可见。
+ Mon, 24 Jun 2019 19:46:44  ERROR basepage.py wait_eleVisible [ line:39 ] 等待元素可见失败：
+Traceback (most recent call last):
+  File "D:\Pychram-Workspace\PO_V6\Common\basepage.py", line 32, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "d:\python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Mon, 24 Jun 2019 19:47:44  ERROR basepage.py save_web_screenshot [ line:142 ] 网页截屏失败！
+Traceback (most recent call last):
+  File "D:\Pychram-Workspace\PO_V6\Common\basepage.py", line 32, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "d:\python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Pychram-Workspace\PO_V6\Common\basepage.py", line 139, in save_web_screenshot
+    self.driver.save_screenshot(screenshot_dir +"/" + filepath)
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1055, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 9.999
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64)
+
+ Mon, 24 Jun 2019 19:47:44  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="phone"]') 可见。
+ Mon, 24 Jun 2019 19:47:45  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:47:44.997626，结束等待时间点：2019-06-24 19:47:45.046635，等待时长为：0:00:00.049009
+ Mon, 24 Jun 2019 19:47:45  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入用户名 中的元素 ('xpath', '//input[@name="phone"]') 
+ Mon, 24 Jun 2019 19:47:45  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="phone"]') 输入文本内容:('18684720553',)
+ Mon, 24 Jun 2019 19:47:45  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="password"]') 可见。
+ Mon, 24 Jun 2019 19:47:45  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:47:45.170851，结束等待时间点：2019-06-24 19:47:45.212481，等待时长为：0:00:00.041630
+ Mon, 24 Jun 2019 19:47:45  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入密码 中的元素 ('xpath', '//input[@name="password"]') 
+ Mon, 24 Jun 2019 19:47:45  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="password"]') 输入文本内容:('pthon111',)
+ Mon, 24 Jun 2019 19:47:45  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('tag name', 'button') 可见。
+ Mon, 24 Jun 2019 19:47:45  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:47:45.328143，结束等待时间点：2019-06-24 19:47:45.376153，等待时长为：0:00:00.048010
+ Mon, 24 Jun 2019 19:47:45  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_点击登陆按钮 中的元素 ('tag name', 'button') 
+ Mon, 24 Jun 2019 19:47:45  INFO basepage.py click_element [ line:74 ]  点击元素 ('tag name', 'button')
+ Mon, 24 Jun 2019 19:47:45  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//div[@class="layui-layer-content"]') 可见。
+ Mon, 24 Jun 2019 19:48:15  ERROR basepage.py wait_eleVisible [ line:39 ] 等待元素可见失败：
+Traceback (most recent call last):
+  File "D:\Pychram-Workspace\PO_V6\Common\basepage.py", line 32, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "d:\python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Mon, 24 Jun 2019 19:49:15  ERROR basepage.py save_web_screenshot [ line:142 ] 网页截屏失败！
+Traceback (most recent call last):
+  File "D:\Pychram-Workspace\PO_V6\Common\basepage.py", line 32, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "d:\python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Pychram-Workspace\PO_V6\Common\basepage.py", line 139, in save_web_screenshot
+    self.driver.save_screenshot(screenshot_dir +"/" + filepath)
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1055, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 9.999
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64)
+
+ Mon, 24 Jun 2019 19:49:16  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="phone"]') 可见。
+ Mon, 24 Jun 2019 19:49:16  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:49:16.335291，结束等待时间点：2019-06-24 19:49:16.370537，等待时长为：0:00:00.035246
+ Mon, 24 Jun 2019 19:49:16  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入用户名 中的元素 ('xpath', '//input[@name="phone"]') 
+ Mon, 24 Jun 2019 19:49:16  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="phone"]') 输入文本内容:('18684720553',)
+ Mon, 24 Jun 2019 19:49:16  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="password"]') 可见。
+ Mon, 24 Jun 2019 19:49:16  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:49:16.502449，结束等待时间点：2019-06-24 19:49:16.554588，等待时长为：0:00:00.052139
+ Mon, 24 Jun 2019 19:49:16  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入密码 中的元素 ('xpath', '//input[@name="password"]') 
+ Mon, 24 Jun 2019 19:49:16  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="password"]') 输入文本内容:('python',)
+ Mon, 24 Jun 2019 19:49:16  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('tag name', 'button') 可见。
+ Mon, 24 Jun 2019 19:49:16  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:49:16.657473，结束等待时间点：2019-06-24 19:49:16.687360，等待时长为：0:00:00.029887
+ Mon, 24 Jun 2019 19:49:16  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_点击登陆按钮 中的元素 ('tag name', 'button') 
+ Mon, 24 Jun 2019 19:49:16  INFO basepage.py click_element [ line:74 ]  点击元素 ('tag name', 'button')
+ Mon, 24 Jun 2019 19:49:16  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//a[text()="关于我们"]') 可见。
+ Mon, 24 Jun 2019 19:49:16  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-24 19:49:16.787508，结束等待时间点：2019-06-24 19:49:16.834397，等待时长为：0:00:00.046889
+ Mon, 24 Jun 2019 19:49:17  INFO basepage.py get_element [ line:51 ] 查找 首页_找用户昵称元素 中的元素 ('xpath', '//a[@href="/Member/index.html"]') 

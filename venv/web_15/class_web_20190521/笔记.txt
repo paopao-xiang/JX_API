@@ -1,0 +1,24 @@
+# html页面的内容表现形式：<tag></tag>
+
+# html页面，head和body
+
+# input: 输入框(type=text)、单选框(type=radio)、复选框(type=checkbox)、按钮(type=button)、文件上传(type=file)
+# 属性：readonly  checked  disabled  name
+
+# 图片 img  src属性
+
+# 链接  a  href属性
+
+# 下拉列表  select/option  value值
+
+# 表单 form   表单元素包含各种类型的input
+
+# 内联框架 iframe
+
+# 表格  table th tr td    属性：border
+
+# 块级元素 div 没有特定的含义。组合其它html的容器。与css一起，设置块的共同样式。
+
+# 注释  <!--  -->
+
+# 换行 <br>
