@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/JX_API.iml" filepath="$PROJECT_DIR$/.idea/JX_API.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Python_15/.idea/Python_15.iml" filepath="$PROJECT_DIR$/../Python_15/.idea/Python_15.iml" />
       <module fileurl="file://$PROJECT_DIR$/../python_test/.idea/test_15.iml" filepath="$PROJECT_DIR$/../python_test/.idea/test_15.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../web_15/.idea/web_15.iml" filepath="$PROJECT_DIR$/../web_15/.idea/web_15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/venv/web_15/.idea/web_15.iml" filepath="$PROJECT_DIR$/venv/web_15/.idea/web_15.iml" />
       <module fileurl="file://$PROJECT_DIR$/../web_out/.idea/web_out.iml" filepath="$PROJECT_DIR$/../web_out/.idea/web_out.iml" />
     </modules>
   </component>
